@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Links will go here
-      </header>
+        <div className="nav-bar"><h1>DanielFullman | Developer</h1></div>
+        </header>
       <div className="App-body">
         <HeroContainer />
 

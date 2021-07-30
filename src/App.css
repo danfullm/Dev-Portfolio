@@ -37,6 +37,15 @@
   font-size: calc(10px + 2vmin);
   color: var(--dan-black);
 }
+.nav-bar{
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+}
+.nav-bar h1{
+  font-size: 30px;
+  color: var(--dan-blue);
+}
 
 .App-body{
   background-color: var(--dan-white);
@@ -297,6 +306,13 @@
   z-index: 1;
   color: var(--dan-white);
   min-height: 10vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .half-flexylcard {
+    display: none;
+ 
+  }
 }
 
 @keyframes App-logo-spin {
