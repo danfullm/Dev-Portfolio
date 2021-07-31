@@ -52,8 +52,19 @@ export default function Projects() {
               <span className="skill-box">ReactJS</span>
               <span className="skill-box">CSS</span>
               </div>
+              <div className="cta-2"><a href="https://composio.netlify.app/">VIEW LIVE</a></div>
+            </div>
+            <div className="project-card">
+              <h3>Developer Portfolio</h3>
+              <p>This is the page you are looking at now! </p>
+              <div className="skills-list-card">
+              <span className="skill-box">HTML</span>
+              <span className="skill-box">JavaScript</span>
+              <span className="skill-box">ReactJS</span>
+              <span className="skill-box">CSS</span>
+              </div>
               <div className="cta-2"><a href="#">VIEW LIVE</a></div>
-              <div className="cta-2"><a href="#">VIEW REPO</a></div>
+              <div className="cta-2"><a href="https://github.com/danfullm/Dev-Portfolio">VIEW REPO</a></div>
             </div>
             
           </div>
