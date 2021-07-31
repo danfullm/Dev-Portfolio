@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="nav-bar"><h1>DanielFullman | Developer</h1></div>
+        <div className="nav-bar"><h1>DF | Developer</h1></div>
         </header>
       <div className="App-body">
         <HeroContainer />

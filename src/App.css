@@ -24,6 +24,7 @@
 .App {
   text-align: center;
   background-color: var(--dan-white);
+  
   min-height: 100vh;
 }
 
@@ -67,17 +68,42 @@
   margin-top: 4rem;
   border-radius: 40px;
   text-decoration: none;
+  box-shadow: 1.5rem 2.5rem 5rem 0.7rem rgb(0 0 0 / 23%);
+  transition: 300ms ease-in-out ;
+  cursor: pointer;
+}
+.cta-1:hover{
+  background-color: var(--dan-orange);
+  
 }
 .cta-1 a{
   text-decoration: none;
   color: var(--dan-white);
   font-size: 20px;
 }
-
+.cta-2{
+  background-color: var(--dan-gray);
+  color: var(--dan-orange);
+  padding: .5rem;
+  width: fit-content;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 40px;
+  transition: 250ms ease-in-out;
+  text-decoration: none;
+}
+.cta-2 a{
+  text-decoration: none;
+  color: var(--dan-orange);
+  font-size: 12px;
+}
+.cta-2:hover{
+  background-color: var(--dan-dark0blue);
+}
 .Hero-container{
   margin-left: 4rem;
   margin-right: 4rem;
-  line-height: 5vh;
+  line-height: 2vh;
   margin-top: 2rem;
   font-family: 'Prompt', sans-serif;
   display: flex;
@@ -112,9 +138,10 @@
   gap: 1rem;
 }
 .social-item{
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   transition: ease-in-out 250ms;
+
 }
 .social-item:hover{
   opacity: 70%;
@@ -155,14 +182,24 @@
   align-items: center;
   padding: 3.3rem;
 }
+.headshot-sketch{
+  width: 25vw;
+  z-index: 100;
+  margin: -10rem;
+  position: relative;
+  right: -30vw;
+  top: 20vh;
+  animation: move 1.5s infinite alternate;
+  padding: 0;
+}
 
 .Hero-container h1{
   color: var(--dan-black);
-  font-size: 44px;
+  font-size: 38px;
   font-weight: 800;
 }
 .Hero-container h2{
-  font-size: 32px;
+  font-size: 26px;
 }
 
 .Hero-left{
@@ -312,6 +349,9 @@
   .half-flexylcard {
     display: none;
  
+  }
+  .headshot-sketch{
+    display: none;
   }
 }
 

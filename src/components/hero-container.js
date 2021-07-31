@@ -2,6 +2,8 @@ import React from 'react'
 import github from '../content/github-ico.svg'
 import linkedin from '../content/linkedin-ico.svg'
 import down from '../content/down.svg'
+import headshot from '../content/headfin.svg'
+
 
 export default function HeroContainer() {
     return (
@@ -11,6 +13,7 @@ export default function HeroContainer() {
             <h1><b>Daniel Fullman</b></h1>
             <h2>Front End, UI/UX Developer.</h2>
             <div className="underline-box"></div>
+            <img className="headshot-sketch" src={headshot} />
             <div className="cta-1"><a href="#">View My Work</a></div>
             <div className="social-container">
               <a href="https://github.com/danfullm">
@@ -25,6 +28,7 @@ export default function HeroContainer() {
           <div className="half-flexylcard"><br/>
             <div className="Hero-decoration"></div>
             <div className="Hero-decoration-2"></div>
+            
           </div>
           </div>
           <div className="scroll-down"><img src={down} />Scroll Down</div>

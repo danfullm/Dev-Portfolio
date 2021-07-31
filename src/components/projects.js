@@ -9,14 +9,14 @@ export default function Projects() {
           <div className="projects-list">
             <div className="project-card">
               <h3>Composer Website</h3>
-              <p>Built to sell classical music scores</p>
+              <p>Built to sell classical music compositions</p>
               <div className="skills-list-card">
               <span className="skill-box">HTML</span>
               <span className="skill-box">JavaScript</span>
               <span className="skill-box">ReactJS</span>
               <span className="skill-box">Firebase</span>
               </div>
-              
+              <div className="cta-2"><a href="https://www.danielfullmanmusic.com">VIEW LIVE</a></div>
             </div>
             <div className="project-card-b">
               <h3>Coffee Shop Website</h3>
@@ -27,18 +27,33 @@ export default function Projects() {
               <span className="skill-box">ReactJS</span>
               <span className="skill-box">CSS</span>
               </div>
-              
+              <div className="cta-2"><a href="#">VIEW LIVE</a></div>
+              <div className="cta-2"><a href="#">VIEW REPO</a></div>
             </div>
             <div className="project-card">
               <h3>Custom Music Player</h3>
-              <p>Here is a Custom Audio Player that I created</p>
+              <p>Custom Audio Player </p>
               <div className="skills-list-card">
               <span className="skill-box">HTML</span>
               <span className="skill-box">JavaScript</span>
               <span className="skill-box">ReactJS</span>
               <span className="skill-box">CSS</span>
               </div>
-              
+              <div className="cta-2"><a href="#">VIEW LIVE</a></div>
+              <div className="cta-2"><a href="#">VIEW REPO</a></div>
+            </div>
+
+            <div className="project-card-b">
+              <h3>Music Commission Network</h3>
+              <p>For connecting artists and buyers </p>
+              <div className="skills-list-card">
+              <span className="skill-box">HTML</span>
+              <span className="skill-box">JavaScript</span>
+              <span className="skill-box">ReactJS</span>
+              <span className="skill-box">CSS</span>
+              </div>
+              <div className="cta-2"><a href="#">VIEW LIVE</a></div>
+              <div className="cta-2"><a href="#">VIEW REPO</a></div>
             </div>
             
           </div>
