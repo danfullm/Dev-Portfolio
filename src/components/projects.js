@@ -18,7 +18,7 @@ export default function Projects() {
               </div>
               <div className="cta-2"><a href="https://www.danielfullmanmusic.com">VIEW LIVE</a></div>
             </div>
-            <div className="project-card-b">
+         {/*   <div className="project-card-b">
               <h3>Coffee Shop Website</h3>
               <p>Sample project for a local Coffee Shop</p>
               <div className="skills-list-card">
@@ -29,8 +29,8 @@ export default function Projects() {
               </div>
               <div className="cta-2"><a href="#">VIEW LIVE</a></div>
               <div className="cta-2"><a href="#">VIEW REPO</a></div>
-            </div>
-            <div className="project-card">
+    </div> */}
+         { /*  <div className="project-card">
               <h3>Custom Music Player</h3>
               <p>Custom Audio Player </p>
               <div className="skills-list-card">
@@ -41,7 +41,7 @@ export default function Projects() {
               </div>
               <div className="cta-2"><a href="#">VIEW LIVE</a></div>
               <div className="cta-2"><a href="#">VIEW REPO</a></div>
-            </div>
+    </div> */}
 
             <div className="project-card-b">
               <h3>Music Commission Network</h3>
